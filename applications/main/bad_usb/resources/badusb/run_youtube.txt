@@ -1,0 +1,14 @@
+REM Running youtube
+
+DELAY 1000
+GUI r
+
+DELAY 500
+STRING chrome
+DELAY 250
+ENTER
+
+TAB
+ENTER
+
+STRING https://www.youtube.com/watch?v=QEcx0_RWRfc&ab_channel=HopCiok
