@@ -37,8 +37,10 @@ typedef struct {
     DesktopSettingsViewPinSetupHowto* pin_setup_howto_view;
     DesktopSettingsViewPinSetupHowto2* pin_setup_howto2_view;
 
-    PinCode pincode_buffer;
+    DesktopPinCode pincode_buffer;
     bool pincode_buffer_filled;
 
-    uint8_t menu_idx;
+    uint32_t pin_menu_idx;
+    uint32_t quick_apps_menu_idx;
+    uint32_t quick_apps_direction_menu_idx;
 } DesktopSettingsApp;
